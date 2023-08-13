@@ -1,0 +1,35 @@
+/* General */
+html {
+    background-color: black;
+}
+
+body {
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 1.33vh;
+}
+
+h3 {
+    margin: 1.45vh;
+}
+
+p {
+    margin: 2vh;
+    font-size: 18px;
+}
+
+.noselect {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
