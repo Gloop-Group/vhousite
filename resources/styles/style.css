@@ -52,6 +52,12 @@ p {
     -webkit-user-select: none;
 }
 
+.project-img {
+    height: 156px;
+    width: auto;
+    margin: 20px;
+}
+
 /* Header */
 
 .navitem {
