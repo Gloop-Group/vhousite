@@ -1,8 +1,12 @@
+---
+permalink: /gagcalc
+---
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>TTR Gag Calculator | Vhou</title>
         <link rel="stylesheet" href="../resources/styles/style.css">
+        <link rel="stylesheet" href="../resources/styles/gagcalc.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Site embed -->
@@ -13,6 +17,57 @@
 
     </head>
     <body>
-
+        <div class="txtcenter">
+            <h1><a id="homelink" href="../">Homepage</a></h1>
+        </div>
+        <br>
+        <div id="gagcalc-body">
+            <h1 class="txtcenter gagcalc-sechead">The Toontown Rewritten Gag Damage Calculator</h1>
+            <p>The Toontown Rewritten Gag Damage Calculator is a downloadable program made by Vhou. It is written in the Rust and Python programming languages, and the source code can be found in <a href="https://github.com/Vhou-Atroph/TT-Damage-Calculator">this GitHub repository</a>. You can find the latest release of the program at <a href="https://github.com/Vhou-Atroph/TT-Damage-Calculator/releases/latest">https://github.com/Vhou-Atroph/TT-Damage-Calculator/releases/latest</a>.</p>
+            <img class="imgcenter" style="width: 25%; height: auto;" src="https://raw.githubusercontent.com/Vhou-Atroph/TT-Damage-Calculator/main/preview.png" alt="An image of the Toontown Rewritten Gag Damage Calculator's interface.">
+            <br>
+            <h1 class="txtcenter gagcalc-sechead">Features</h1>
+            <p>This calculator allows for the calculation of damage dealt during a single round of battle using all damaging gag tracks and common SOS cards. On the main interface, the user is also able to toggle whether a cog is lured or not, and whether gags to add to a calculation are organic or not. To completely reset a calculation, users can simply press the "Reset damage" button. In addition to what is present on the main interface, the "Calculations" menu at the top of the program also features the following calculation modifiers:
+                <ul>
+                    <li>Cog Defense</li>
+                    <li>Reinforced Plating (for levels 9-12)</li>
+                    <li>Lock modifiers</li>
+                </ul>
+            </p>
+            <p>Under the "Program" menu, users can also find the following:
+                <ul>
+                    <li>Settings</li>
+                    <li>Pin Window to Top</li>
+                    <li>Update Checker</li>
+                    <li>Close Program</li>
+                </ul>
+            </p>
+            <p>To help expedite certain functions, there are also several keybinds to use:
+                <table class="gagcalc-table">
+                    <tr><th>Key</th><th>Function</th></tr>
+                    <tr><td>Shift</td><td>Toggle Organic</td></tr>
+                    <tr><td>Ctrl+L</td><td>Toggle Lured</td></tr>
+                    <tr><td>Ctrl+R</td><td>Reset Calculation</td></tr>
+                    <tr><td>Ctrl+D</td><td>Cycle through defense values</td></tr>
+                    <tr><td>Ctrl+V</td><td>Cycle through reinforced plating values</td></tr>
+                    <tr><td>Ctrl+X</td><td>Lock/Unlock modifiers</td></tr>
+                    <tr><td>Alt+Up</td><td>Pin/Unpin window</td></tr>
+                </table>
+            </p>
+            <p>As new features continue to get added to Toontown Rewritten, I will continue to try to add on to and improve this gag calculator!</p>
+            <h1 class="txtcenter gagcalc-sechead">Reporting Bugs</h1>
+            <p>Something not working the way it should? Send a bug report to <a href="https://github.com/Vhou-Atroph/TT-Damage-Calculator/issues/new/choose">the issue tracker</a>!</p>
+            <br>
+            <h1 class="txtcenter"><a id="gagcalc-download" href="https://github.com/Vhou-Atroph/TT-Damage-Calculator/releases/latest/download/Toontown.Damage.Calculator.-.4.2.0.zip">DOWNLOAD</a></h1>
+            <h1 class="txtcenter gagcalc-sechead">Latest Release Information</h1>
+            <p>The latest releae of the Toontown Rewritten Gag Damage Calculator is V4.2.0, and has the following changes:
+                <ul>
+                    <li>You can now open the program's settings through a button in the program menu.</li>
+                    <li>Changed project format to be publishable on Pypi.</li>
+                </ul>
+            </p>
+            <h1 class="txtcenter gagcalc-sechead">License Information</h1>
+            <p>The code for the Toontown Rewritten Gag Calculator is licensed under the <a href="https://github.com/Vhou-Atroph/TT-Damage-Calculator/blob/main/LICENSE">GNU General Public License v3.0</a>. You should receive a copy of this license when you download the program. Image assets such as those originally present in Disney's Toontown Online are the property of Disney.</p>
+        </div>
     </body>
 </html>
