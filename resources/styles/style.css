@@ -104,6 +104,7 @@ p {
     height: 86px;
     width: auto;
     position: relative;
+    margin-right: 6px;
 }
 
 #logo-onhover {
