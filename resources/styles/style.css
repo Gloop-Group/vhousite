@@ -135,4 +135,5 @@ p {
 
 #this {
     background-color: rgb(53, 0, 53);
+    border-bottom: solid white 1px;
 }
