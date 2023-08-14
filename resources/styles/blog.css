@@ -1,0 +1,24 @@
+#homelink {
+    font-size: 64px;
+    color: rgb(238, 238, 238);
+    background-color: rgb(48, 48, 48);
+    text-decoration: none;
+    border: 6px solid rgb(22, 22, 22);
+    margin: 20px;
+}
+
+#post-body {
+    background-color: rgb(79, 79, 79);
+    min-height: 656px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#post-date {
+    font-size: 24px;
+}
+
+#post-title {
+    font-size: 72px;
+    text-decoration: underline;
+}
