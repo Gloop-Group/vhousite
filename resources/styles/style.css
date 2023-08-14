@@ -44,3 +44,36 @@ p {
     -webkit-user-drag: none;
     -webkit-user-select: none;
 }
+
+/* Header */
+
+#header {
+    border-bottom: 1px solid rgb(20, 20, 20);
+}
+
+#header-logo {
+    position: relative;
+    display: inline-block;
+}
+
+#logo {
+    height: 86px;
+    width: auto;
+    position: relative;
+}
+
+#logo-onhover {
+    height: 86px;
+    position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	object-fit: contain;
+	opacity: 0;
+}
+
+#logo-onhover:hover {
+    opacity: 1;
+    transition: opacity .1s;
+}
