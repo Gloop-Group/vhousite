@@ -10,6 +10,7 @@ body {
     color: black;
     font-family: "Impress BT", Arial, sans-serif;
     margin: 0px;
+    margin-top: 10px;
     padding: 0px;
 }
 
@@ -33,6 +34,7 @@ a {
     background-color: gray;
     padding: 3px;
 }
+
 .gagcalc-table td {
     border: 3px solid black;
     color: white;
@@ -47,25 +49,19 @@ a {
     -webkit-user-select: none;
 }
 
+#download {
+    height: 128px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #gagcalc-body {
     color: white;
     background-color: rgb(22, 22, 82);
     border: 1px solid black;
     height: auto;
-}
-
-#gagcalc-download {
-    font-size: 64px;
-    color: orange;
-    font-family: Minnie, "Impress BT", Arial, sans-serif;
-    text-decoration: none;
-}
-
-#gagcalc-download:hover {
-    font-size: 65px;
-    color: darkorange;
-    transition: font-size .05s;
-    transition: color .05s;
 }
 
 #homelink {
@@ -74,6 +70,7 @@ a {
     background-color: rgb(90, 117, 252);
     border: 8px solid rgb(24, 8, 149);
     text-decoration: none;
+    margin-bottom: 20px;
 }
 
 #homelink:hover {
@@ -85,10 +82,19 @@ a {
     transition: color .2s;
 }
 
+#preview {
+    max-height: 360px;
+    width: auto;
+}
+
 /* Mobile CSS */
 
 @media screen and (max-width: 600px) {
     /* General */
+
+    #download img {
+        height: 64px;
+    }
 
     #homelink {
         font-size: 34px;
@@ -96,5 +102,9 @@ a {
 
     #homelink:hover {
         font-size: 34px;
+    }
+
+    #preview {
+        max-height: 250px;
     }
 }
