@@ -84,3 +84,17 @@ a {
     text-decoration: none;
     transition: color .2s;
 }
+
+/* Mobile CSS */
+
+@media screen and (max-width: 600px) {
+    /* General */
+
+    #homelink {
+        font-size: 34px;
+    }
+
+    #homelink:hover {
+        font-size: 34px;
+    }
+}
